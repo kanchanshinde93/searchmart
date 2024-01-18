@@ -94,3 +94,43 @@ body {
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+button {
+    padding: 0.375rem 1.75rem;
+    height: calc(2.5em + .99rem + 2px);
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.desktop .group {
+    position: absolute;
+    width: 518px;
+    height: 290px;
+    top: 500px;
+    left: 192px;
+}
+.desktop .p {
+    /* width: 518px; */
+    top: 999px;
+    max-width: 850px;
+    left: 730px;
+    font-family: "DM Serif Display", Helvetica;
+    color: #000000;
+    font-size: 40px;
+    line-height: 48px;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.desktop .service-name {
+    position: absolute;
+    top: 0;
+    left: 37px;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: normal;
+}
