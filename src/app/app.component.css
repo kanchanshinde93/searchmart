@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap");
 body {
     background: #fafafa;
 }
 .accordion {
     display: flex;
     flex-direction: column;
-    font-family: "Sora", sans-serif;
+    font-family: "Roboto", Helvetica;
     max-width: 991px;
     min-width: 320px;
     margin: 50px auto;
@@ -79,4 +78,19 @@ body {
     .accordion h1 {
         font-size: 22px;
     }
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.5em + .99rem + 2px);
+    padding: .375rem 1.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }

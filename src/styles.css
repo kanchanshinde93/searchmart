@@ -176,18 +176,18 @@
     left: 192px;
   }
   
-  .desktop .overlap-group-wrapper {
+  /* .desktop .overlap-group-wrapper {
     position: absolute;
     width: 519px;
     height: 60px;
     top: 0;
     left: 1px;
-  }
+  } */
   
   .desktop .enter-your-name-wrapper {
-    position: relative;
+    /* position: relative;
     width: 517px;
-    height: 60px;
+    height: 60px; */
     background-color: #ffffff;
   }
   
@@ -204,13 +204,13 @@
     white-space: nowrap;
   }
   
-  .desktop .overlap-wrapper {
+  /* .desktop .overlap-wrapper {
     position: absolute;
     width: 520px;
     height: 60px;
     top: 70px;
     left: 0;
-  }
+  } */
   
   .desktop .overlap-2 {
     position: relative;
