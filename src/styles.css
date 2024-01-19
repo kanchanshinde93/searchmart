@@ -81,6 +81,7 @@
   letter-spacing: 0;
   line-height: 18px;
   white-space: nowrap;
+  list-style: none;
 }
 
 .desktop .about-us {
@@ -93,7 +94,8 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: 18px;
-  white-space: nowrap;
+  white-space: nowrap; 
+  list-style: none;
 }
 
 .desktop .pricing {
@@ -107,6 +109,7 @@
   letter-spacing: 0;
   line-height: 18px;
   white-space: nowrap;
+  list-style: none;
 }
 
 .desktop .contact-us {
@@ -120,9 +123,10 @@
   letter-spacing: 0;
   line-height: 18px;
   white-space: nowrap;
+  list-style: none;
 }
 
-.desktop .get-in-touch-wrapper {
+button.btn1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -456,14 +460,14 @@
   letter-spacing: 0;
 }
 
-.desktop .view-all-services-wrapper {
+button.btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding: 20px 40px;
   position: absolute;
-  top: 128px;
+  top: 47px;
   left: 1016px;
   background: linear-gradient(180deg, rgb(218, 0, 0) 29.41%, rgb(114.75, 0, 0) 100%);
 }
@@ -1070,8 +1074,8 @@
 
 .desktop .read-more {
   position: absolute;
-  top: 295px;
-  left: 284px;
+  top: 272px;
+  /* left: -96px; */
   background: linear-gradient(180deg, rgb(218, 0, 0) 29.41%, rgb(114.75, 0, 0) 100%);
   -webkit-background-clip: text !important;
   background-clip: text;
@@ -2548,4 +2552,15 @@
   letter-spacing: 0;
   line-height: 16px;
   white-space: nowrap;
+}
+
+
+button.btn{
+  color: white;
+  background: linear-gradient(180deg, rgb(218, 0, 0) 29.41%, rgb(114.75, 0, 0) 100%);
+}
+
+
+.rectangle-7 :hover {
+  background: linear-gradient(180deg, rgb(218, 0, 0) 29.41%, rgb(114.75, 0, 0) 100%);
 }
