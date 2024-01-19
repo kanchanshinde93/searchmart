@@ -2559,8 +2559,21 @@ button.btn{
   color: white;
   background: linear-gradient(180deg, rgb(218, 0, 0) 29.41%, rgb(114.75, 0, 0) 100%);
 }
-
+/* 
 
 .rectangle-7 :hover {
   background: linear-gradient(180deg, rgb(218, 0, 0) 29.41%, rgb(114.75, 0, 0) 100%);
+} */
+
+
+.font-change{
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+
+
